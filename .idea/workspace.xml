@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb1ad1dc-b88f-42ff-a3c6-2bba0a0d5d32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_explicit_wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_explicit_wait.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4_python_qa_web_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Python tests in test_explicit_wait.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">

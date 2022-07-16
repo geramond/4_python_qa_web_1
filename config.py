@@ -1,4 +1,4 @@
-SOURCE = {
+CONFIG = {
     "main": "http://172.29.93.229:8081/",
     "desktops": "http://172.29.93.229:8081/desktops",
     "mac": "http://172.29.93.229:8081/desktops/mac/imac",

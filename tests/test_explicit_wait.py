@@ -2,11 +2,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from config import SOURCE
+from config import CONFIG
 
 
 def test_check_title(browser):
-    browser.get(SOURCE["main"])
+    browser.get(CONFIG["main"])
     wait = WebDriverWait(browser, 10, poll_frequency=1)
 
     wait.until(EC.title_is("Your Store"))
@@ -21,7 +21,7 @@ def test_check_title(browser):
 
 
 def test_check_catalog(browser):
-    browser.get(SOURCE["desktops"])
+    browser.get(CONFIG["desktops"])
     wait = WebDriverWait(browser, 10, poll_frequency=1)
 
     wait.until(EC.title_is("Desktops"))
@@ -36,7 +36,7 @@ def test_check_catalog(browser):
 
 
 def test_check_product(browser):
-    browser.get(SOURCE["mac"])
+    browser.get(CONFIG["mac"])
     wait = WebDriverWait(browser, 10, poll_frequency=1)
 
     wait.until(EC.title_is("iMac"))
@@ -51,7 +51,7 @@ def test_check_product(browser):
 
 
 def test_check_login_admin(browser):
-    browser.get(SOURCE["admin"])
+    browser.get(CONFIG["admin"])
     wait = WebDriverWait(browser, 10, poll_frequency=1)
 
     wait.until(EC.title_is("Administration"))
@@ -66,7 +66,7 @@ def test_check_login_admin(browser):
 
 
 def test_check_user_register(browser):
-    browser.get(SOURCE["register"])
+    browser.get(CONFIG["register"])
     wait = WebDriverWait(browser, 10, poll_frequency=1)
 
     wait.until(EC.title_is("Register Account"))

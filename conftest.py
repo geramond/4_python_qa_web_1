@@ -25,11 +25,11 @@ def browser(request):
         options = FirefoxOptions()
         driver = webdriver.Firefox(executable_path=f"{drivers}/geckodriver", options=options)
     elif browser_name == "opera":
-        driver = webdriver.Opera()
+        driver = webdriver.Opera(executable_path=f"{drivers}/operadriver")
     elif browser_name == "safari":
-        driver = webdriver.Safari()
+        driver = webdriver.Safari(executable_path=f"{drivers}/safaridriver")
     elif browser_name == "edge":
-        driver = webdriver.Edge()
+        driver = webdriver.Edge(executable_path=f"{drivers}/edgedriver")
     else:
         raise ValueError("Browser not supported!")
 
